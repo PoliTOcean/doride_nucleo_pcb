@@ -1011,6 +1011,282 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PoliTOcean:B3B-XH-A"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at -2.54 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "B3B-XH-A"
+				(at -2.54 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "B3B-XH-A:B3B-XH-A"
+				(at 0 8.128 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "PARTREV" "7/4/21"
+				(at 0 -3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "7.00 mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "JST Sales America Inc."
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "B3B-XH-A_0_0"
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -2.54 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -3.81) (xy -2.54 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -3.175 2.2225)
+					(end -1.5875 2.8575)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -3.175 -0.3175)
+					(end -1.5875 0.3175)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -3.175 -2.8575)
+					(end -1.5875 -2.2225)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -5.08) (xy 3.81 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 5.08) (xy -2.54 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -5.08) (xy 3.81 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PoliTOcean:B4B-XH-A_LF__SN_"
 			(pin_names
 				(offset 1.016)
@@ -3102,6 +3378,252 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "doride_lib:B6B-XH-A_LF__SN_"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 16.51 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "B6B-XH-A_LF__SN_"
+				(at 16.51 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SHDR6W64P0X250_1X6_1740X575X700P"
+				(at 16.51 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/JST-Sales-America-B6B-XH-A-LF-SN_C144397.pdf"
+				(at 16.51 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "CONN HEADER VERT 6POS 2.5MM"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "7"
+				(at 16.51 -394.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "306-B6BXHALFSN"
+				(at 16.51 -494.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/JST-Commercial/B6B-XH-ALFSN?qs=cdbOS8ANM9AKmMmofXbwlw%3D%3D"
+				(at 16.51 -594.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
+				(at 16.51 -694.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "B6B-XH-A(LF)(SN)"
+				(at 16.51 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "B6B-XH-A_LF__SN__1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -15.24)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 0)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+12V"
 			(power global)
 			(pin_numbers
@@ -3519,6 +4041,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+6V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+6V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+6V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+6V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+6V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -3752,7 +4413,7 @@
 	)
 	(rectangle
 		(start 27.94 162.56)
-		(end 78.74 177.8)
+		(end 78.74 193.04)
 		(stroke
 			(width 0)
 			(type default)
@@ -3763,8 +4424,8 @@
 		(uuid "8bcfb76b-053d-48e6-bab7-9c998da2bbe0")
 	)
 	(rectangle
-		(start 22.86 33.02)
-		(end 93.98 58.42)
+		(start 22.86 22.86)
+		(end 71.12 58.42)
 		(stroke
 			(width 0)
 			(type default)
@@ -3776,7 +4437,7 @@
 	)
 	(text "Connettore Rasp: ne serve uno da 6\n"
 		(exclude_from_sim no)
-		(at 38.354 31.496 0)
+		(at 40.64 21.336 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3824,7 +4485,7 @@
 		)
 		(uuid "528aa0a0-5ae8-43dd-bb2d-e96182bfcbf5")
 	)
-	(text "Alimentazione: 12V diretti alla scheda"
+	(text "Alimentazione: 12V e 6V diretti alla scheda"
 		(exclude_from_sim no)
 		(at 46.736 161.29 0)
 		(effects
@@ -3957,6 +4618,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c62d4120-9053-4f46-8bb2-f11bbc656757")
+	)
+	(junction
+		(at 63.5 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb0ac4de-86b9-4b6c-8a6b-cca1f4eaef4b")
 	)
 	(junction
 		(at 63.5 171.45)
@@ -4108,7 +4775,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 148.59) (xy 241.3 148.59)
+			(xy 234.95 148.59) (xy 247.65 148.59)
 		)
 		(stroke
 			(width 0)
@@ -4118,7 +4785,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 135.89) (xy 241.3 135.89)
+			(xy 229.87 135.89) (xy 247.65 135.89)
 		)
 		(stroke
 			(width 0)
@@ -4135,16 +4802,6 @@
 			(type default)
 		)
 		(uuid "2a088460-7d8b-46d4-9414-0bf5b84dac0f")
-	)
-	(wire
-		(pts
-			(xy 241.3 153.67) (xy 241.3 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35be0f5f-8379-48a8-9766-e0cf7700e429")
 	)
 	(wire
 		(pts
@@ -4208,16 +4865,6 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 135.89) (xy 241.3 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56f1e432-7566-4648-bc19-7b8166428ca5")
-	)
-	(wire
-		(pts
 			(xy 222.25 133.35) (xy 234.95 133.35)
 		)
 		(stroke
@@ -4248,7 +4895,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 153.67) (xy 241.3 153.67)
+			(xy 229.87 153.67) (xy 247.65 153.67)
 		)
 		(stroke
 			(width 0)
@@ -4308,7 +4955,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 130.81) (xy 241.3 130.81)
+			(xy 234.95 130.81) (xy 247.65 130.81)
 		)
 		(stroke
 			(width 0)
@@ -4620,7 +5267,7 @@
 	)
 	(global_label "USART1_CK"
 		(shape bidirectional)
-		(at 76.2 46.99 0)
+		(at 50.8 35.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4630,7 +5277,7 @@
 		)
 		(uuid "4bed2907-cab1-4441-ad30-bbb354b2c847")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 90.8798 46.99 0)
+			(at 65.4798 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5124,7 +5771,7 @@
 	)
 	(global_label "USART1_CTS"
 		(shape bidirectional)
-		(at 41.91 52.07 0)
+		(at 50.8 38.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5134,7 +5781,7 @@
 		)
 		(uuid "dbbe1a09-da0c-4dcd-a758-8252ffcae380")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 57.4969 52.07 0)
+			(at 66.3869 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5148,7 +5795,7 @@
 	)
 	(global_label "USART1_RTS"
 		(shape bidirectional)
-		(at 41.91 49.53 0)
+		(at 50.8 40.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5158,7 +5805,7 @@
 		)
 		(uuid "dedd3bbc-1939-4bc0-82fb-866f7cf014bf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 57.4969 49.53 0)
+			(at 66.3869 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5220,7 +5867,7 @@
 	)
 	(global_label "USART1_TX"
 		(shape bidirectional)
-		(at 41.91 44.45 0)
+		(at 50.8 45.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5230,7 +5877,7 @@
 		)
 		(uuid "f4408286-1756-40fe-b833-6a82bec5ea4f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 56.2269 44.45 0)
+			(at 65.1169 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5244,7 +5891,7 @@
 	)
 	(global_label "USART1_RX"
 		(shape bidirectional)
-		(at 41.91 46.99 0)
+		(at 50.8 43.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5254,7 +5901,7 @@
 		)
 		(uuid "f5ca75dc-37e1-4b0d-ad26-aa31020077da")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 56.5293 46.99 0)
+			(at 65.4193 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5378,7 +6025,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "082d3a87-1085-4819-9e3d-efb29d1b74ef")
-		(property "Reference" "J5"
+		(property "Reference" "J7"
 			(at 252.73 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5469,15 +6116,15 @@
 		(instances
 			(project "DORIDE_motori"
 				(path "/1d8b6cbe-395c-4735-9191-262d66b68dd6"
-					(reference "J5")
+					(reference "J7")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 76.2 49.53 0)
+		(lib_id "power:+6V")
+		(at 247.65 133.35 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5486,9 +6133,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1b8d91c9-be1e-4e43-8ba5-568f4d680e4b")
-		(property "Reference" "#PWR025"
-			(at 76.2 55.88 0)
+		(uuid "148ffb67-7396-4057-8283-9114a5a95659")
+		(property "Reference" "#PWR030"
+			(at 251.46 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5498,18 +6145,19 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 76.2 54.61 0)
+		(property "Value" "+6V"
+			(at 243.84 133.3499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 49.53 0)
+			(at 247.65 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5520,7 +6168,85 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 49.53 0)
+			(at 247.65 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+6V\""
+			(at 247.65 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1a47ac2b-dc68-4a42-b37b-a4197c23c22d")
+		)
+		(instances
+			(project "DORIDE_motori"
+				(path "/1d8b6cbe-395c-4735-9191-262d66b68dd6"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 50.8 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b8d91c9-be1e-4e43-8ba5-568f4d680e4b")
+		(property "Reference" "#PWR025"
+			(at 50.8 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 50.8 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5531,7 +6257,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 76.2 49.53 0)
+			(at 50.8 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5874,7 +6600,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2fcfb4bd-01a3-4ec2-acef-7998b8476364")
-		(property "Reference" "R6"
+		(property "Reference" "R8"
 			(at 226.06 144.272 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5894,7 +6620,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 226.06 150.368 90)
 			(hide yes)
 			(show_name no)
@@ -5936,7 +6662,141 @@
 		(instances
 			(project "DORIDE_motori"
 				(path "/1d8b6cbe-395c-4735-9191-262d66b68dd6"
-					(reference "R6")
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PoliTOcean:B3B-XH-A")
+		(at 255.27 133.35 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30e998c6-6510-495b-b98f-df7fdf439847")
+		(property "Reference" "J9"
+			(at 260.35 132.0799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B3B-XH-A"
+			(at 260.35 134.6199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PoliTOcean:SHDR3W64P0X250_1X3_990X575X700"
+			(at 255.27 125.222 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 255.27 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" "7/4/21"
+			(at 255.27 136.906 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 255.27 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "7.00 mm"
+			(at 255.27 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "JST Sales America Inc."
+			(at 255.27 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1"
+			(uuid "507a700f-88d5-43e1-9b3e-b8c68f41a60a")
+		)
+		(pin "3"
+			(uuid "1cd3037b-8ff9-4227-9e81-65a9ae631417")
+		)
+		(pin "2"
+			(uuid "c470cd1c-09a2-46dd-ab77-1f90013d09fa")
+		)
+		(instances
+			(project "DORIDE_motori"
+				(path "/1d8b6cbe-395c-4735-9191-262d66b68dd6"
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -6020,6 +6880,106 @@
 		)
 	)
 	(symbol
+		(lib_id "PoliTOcean:B2B-XH-A_LF__SN_")
+		(at 63.5 185.42 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "34584f6b-cd01-477d-ab43-dbcd5253b2fc")
+		(property "Reference" "J6"
+			(at 38.608 185.674 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+			)
+		)
+		(property "Value" "B2B-XH-A_LF__SN_"
+			(at 38.862 182.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+			)
+		)
+		(property "Footprint" "PoliTOcean:SHDR2W64P0X250_1X2_740X575X700"
+			(at 62.738 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Funzione" "6-VAL"
+			(at 53.086 184.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 63.5 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "582fdb95-4fbb-4b07-a513-1f0f38a6f47c")
+		)
+		(pin "1"
+			(uuid "d099e5e0-9a41-4c84-ae89-b862adafddef")
+		)
+		(instances
+			(project "DORIDE_motori"
+				(path "/1d8b6cbe-395c-4735-9191-262d66b68dd6"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Isolator:4N35")
 		(at 214.63 151.13 0)
 		(unit 1)
@@ -6031,7 +6991,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3efbef4b-6961-4c7d-879d-9b7c09c7835f")
-		(property "Reference" "U7"
+		(property "Reference" "U6"
 			(at 214.63 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6108,7 +7068,7 @@
 		(instances
 			(project "DORIDE_motori"
 				(path "/1d8b6cbe-395c-4735-9191-262d66b68dd6"
-					(reference "U7")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -6146,7 +7106,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PoliTOcean:TSR1-2433"
 			(at 136.652 120.142 0)
 			(hide yes)
 			(show_name no)
@@ -6210,7 +7170,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "41da251f-c608-405a-a288-76e2f5f10ca6")
-		(property "Reference" "J2"
+		(property "Reference" "J5"
 			(at 38.608 171.704 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6263,7 +7223,7 @@
 				)
 			)
 		)
-		(property "Funzione" "VAL"
+		(property "Funzione" "12-VAL"
 			(at 53.086 170.18 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6293,7 +7253,7 @@
 		(instances
 			(project "DORIDE_motori"
 				(path "/1d8b6cbe-395c-4735-9191-262d66b68dd6"
-					(reference "J2")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -6310,7 +7270,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "43e3ca97-b8eb-499c-a2d9-aaad5245cc04")
-		(property "Reference" "J3"
+		(property "Reference" "J2"
 			(at 37.592 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6388,7 +7348,7 @@
 		(instances
 			(project "DORIDE_motori"
 				(path "/1d8b6cbe-395c-4735-9191-262d66b68dd6"
-					(reference "J3")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -6405,7 +7365,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "45f3edc3-dcb8-4383-ad6b-7066a492959c")
-		(property "Reference" "R1"
+		(property "Reference" "R3"
 			(at 203.2 108.712 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6425,7 +7385,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 203.2 114.808 90)
 			(hide yes)
 			(show_name no)
@@ -6467,7 +7427,7 @@
 		(instances
 			(project "DORIDE_motori"
 				(path "/1d8b6cbe-395c-4735-9191-262d66b68dd6"
-					(reference "R1")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -6648,7 +7608,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4b88a9c0-f9e2-4d6f-9684-56f73ad57687")
-		(property "Reference" "J9"
+		(property "Reference" "J4"
 			(at 36.83 132.334 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6668,7 +7628,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PoliTOcean_SHDR4W64P0X250_1X4_1240X575X70"
+		(property "Footprint" "PoliTOcean:SHDR4W64P0X250_1X4_1240X575X70"
 			(at 61.468 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -6715,7 +7675,7 @@
 		(instances
 			(project "DORIDE_motori"
 				(path "/1d8b6cbe-395c-4735-9191-262d66b68dd6"
-					(reference "J9")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -7198,7 +8158,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "633f87ca-ead6-47fa-9a2d-05553fdd43b0")
-		(property "Reference" "R3"
+		(property "Reference" "R5"
 			(at 203.2 126.492 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7218,7 +8178,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 203.2 132.588 90)
 			(hide yes)
 			(show_name no)
@@ -7260,7 +8220,7 @@
 		(instances
 			(project "DORIDE_motori"
 				(path "/1d8b6cbe-395c-4735-9191-262d66b68dd6"
-					(reference "R3")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -7631,7 +8591,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "742157f3-cdff-428e-86c7-5282f28821b8")
-		(property "Reference" "R4"
+		(property "Reference" "R6"
 			(at 226.06 126.492 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7651,7 +8611,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 226.06 132.588 90)
 			(hide yes)
 			(show_name no)
@@ -7693,7 +8653,163 @@
 		(instances
 			(project "DORIDE_motori"
 				(path "/1d8b6cbe-395c-4735-9191-262d66b68dd6"
-					(reference "R4")
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 63.5 182.88 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74b663fd-e686-41d5-959c-4529e8952481")
+		(property "Reference" "#FLG05"
+			(at 65.405 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 67.31 182.8799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 63.5 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1b792940-7d87-47b8-a8d4-710d5dfb9ecf")
+		)
+		(instances
+			(project "DORIDE_motori"
+				(path "/1d8b6cbe-395c-4735-9191-262d66b68dd6"
+					(reference "#FLG05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 63.5 182.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "78cb9443-0597-4a43-8c85-1787472dc445")
+		(property "Reference" "#PWR05"
+			(at 63.5 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+6V"
+			(at 65.786 179.578 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 63.5 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9e3f6994-e73b-4202-bb97-a4488058c5d4")
+		)
+		(instances
+			(project "DORIDE_motori"
+				(path "/1d8b6cbe-395c-4735-9191-262d66b68dd6"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -7773,6 +8889,140 @@
 			(project "DORIDE_motori"
 				(path "/1d8b6cbe-395c-4735-9191-262d66b68dd6"
 					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PoliTOcean:B3B-XH-A")
+		(at 255.27 151.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ea616b7-c43b-48a1-942b-4ed667d6d742")
+		(property "Reference" "J10"
+			(at 260.35 149.8599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B3B-XH-A"
+			(at 260.35 152.3999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PoliTOcean:SHDR3W64P0X250_1X3_990X575X700"
+			(at 255.27 143.002 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 255.27 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" "7/4/21"
+			(at 255.27 154.686 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 255.27 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "7.00 mm"
+			(at 255.27 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "JST Sales America Inc."
+			(at 255.27 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1"
+			(uuid "507a700f-88d5-43e1-9b3e-b8c68f41a60b")
+		)
+		(pin "3"
+			(uuid "1cd3037b-8ff9-4227-9e81-65a9ae631418")
+		)
+		(pin "2"
+			(uuid "c470cd1c-09a2-46dd-ab77-1f90013d09fb")
+		)
+		(instances
+			(project "DORIDE_motori"
+				(path "/1d8b6cbe-395c-4735-9191-262d66b68dd6"
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -7866,7 +9116,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8363f8ab-6a9f-48e4-86fc-cbd4a1282a8f")
-		(property "Reference" "R7"
+		(property "Reference" "R1"
 			(at 108.712 38.354 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7888,7 +9138,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 111.252 39.37 90)
 			(hide yes)
 			(show_name no)
@@ -7930,7 +9180,86 @@
 		(instances
 			(project "DORIDE_motori"
 				(path "/1d8b6cbe-395c-4735-9191-262d66b68dd6"
-					(reference "R7")
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+6V")
+		(at 247.65 151.13 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95228d90-f00e-4746-84e9-4d22cb02c6db")
+		(property "Reference" "#PWR03"
+			(at 251.46 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+6V"
+			(at 243.84 151.1299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+6V\""
+			(at 247.65 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1a47ac2b-dc68-4a42-b37b-a4197c23c22e")
+		)
+		(instances
+			(project "DORIDE_motori"
+				(path "/1d8b6cbe-395c-4735-9191-262d66b68dd6"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -7970,7 +9299,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 260.0452 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -8030,7 +9359,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96c596f8-2f40-40dd-9caf-ad00f70a06ed")
-		(property "Reference" "PS1"
+		(property "Reference" "U3"
 			(at 134.62 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8240,7 +9569,7 @@
 		(instances
 			(project "DORIDE_motori"
 				(path "/1d8b6cbe-395c-4735-9191-262d66b68dd6"
-					(reference "PS1")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -8397,86 +9726,6 @@
 			(project "DORIDE_motori"
 				(path "/1d8b6cbe-395c-4735-9191-262d66b68dd6"
 					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PoliTOcean:B2B-XH-A_LF__SN_")
-		(at 241.3 130.81 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a3369495-f2e1-44b9-a610-0ecedd139b5f")
-		(property "Reference" "J6"
-			(at 257.81 130.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "B2B-XH-A_LF__SN_"
-			(at 257.81 133.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PoliTOcean_SHDR2W64P0X250_1X2_740X575X700"
-			(at 242.062 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "P-UP"
-			(at 252.222 132.334 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "81a42f35-0cc6-435a-945a-17baec7e181a")
-		)
-		(pin "2"
-			(uuid "89bdff96-886f-4419-a1a7-286f75ce87d7")
-		)
-		(instances
-			(project "DORIDE_motori"
-				(path "/1d8b6cbe-395c-4735-9191-262d66b68dd6"
-					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -8650,7 +9899,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ac26dbd2-f2ba-46d1-8e77-2f03312e3997")
-		(property "Reference" "R2"
+		(property "Reference" "R4"
 			(at 226.06 108.712 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8670,7 +9919,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 226.06 114.808 90)
 			(hide yes)
 			(show_name no)
@@ -8712,7 +9961,7 @@
 		(instances
 			(project "DORIDE_motori"
 				(path "/1d8b6cbe-395c-4735-9191-262d66b68dd6"
-					(reference "R2")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -8875,248 +10124,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PoliTOcean:B4B-XH-A_LF__SN_")
-		(at 41.91 52.07 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b7f9eaf8-044a-42f8-8ddf-6c3b85404dcf")
-		(property "Reference" "J10"
-			(at 31.75 36.83 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-			)
-		)
-		(property "Value" "B4B-XH-A_LF__SN_"
-			(at 31.75 39.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-			)
-		)
-		(property "Footprint" "PoliTOcean_SHDR4W64P0X250_1X4_1240X575X70"
-			(at 41.148 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 41.91 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "USART_Rasp"
-			(at 31.75 48.006 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "42afcf3d-5dd9-471c-8c1d-12e380d43d20")
-		)
-		(pin "2"
-			(uuid "3317fab0-deaa-4e0d-93f1-36495b5cc548")
-		)
-		(pin "3"
-			(uuid "6c57fc26-d0ef-47ea-8e94-fd2d9c6a32b0")
-		)
-		(pin "1"
-			(uuid "3a8a595d-5c19-41e6-ab29-7e1e6d0723a0")
-		)
-		(instances
-			(project "DORIDE_motori"
-				(path "/1d8b6cbe-395c-4735-9191-262d66b68dd6"
-					(reference "J10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PoliTOcean:B2B-XH-A_LF__SN_")
-		(at 76.2 49.53 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bc8c857d-7f1f-4e5d-a9f1-187e86b8951e")
-		(property "Reference" "J1"
-			(at 66.04 39.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-			)
-		)
-		(property "Value" "B2B-XH-A_LF__SN_"
-			(at 66.04 41.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-			)
-		)
-		(property "Footprint" "PoliTOcean_SHDR2W64P0X250_1X2_740X575X700"
-			(at 75.438 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-			)
-		)
-		(property "Datasheet" "Serve per il GND con USART"
-			(at 76.2 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "GNDs"
-			(at 66.04 48.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9f953f0b-5f22-47b0-a032-9eaeafc78381")
-		)
-		(pin "2"
-			(uuid "b0824a38-ef2e-4775-bbff-c163de56a658")
-		)
-		(instances
-			(project "DORIDE_motori"
-				(path "/1d8b6cbe-395c-4735-9191-262d66b68dd6"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PoliTOcean:B2B-XH-A_LF__SN_")
-		(at 241.3 148.59 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c12df46f-4aa3-411d-af57-44402234b583")
-		(property "Reference" "J7"
-			(at 257.81 148.59 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "B2B-XH-A_LF__SN_"
-			(at 257.81 151.13 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PoliTOcean_SHDR2W64P0X250_1X2_740X575X700"
-			(at 242.062 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "P-BM"
-			(at 251.968 149.86 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "81a42f35-0cc6-435a-945a-17baec7e181b")
-		)
-		(pin "2"
-			(uuid "89bdff96-886f-4419-a1a7-286f75ce87d8")
-		)
-		(instances
-			(project "DORIDE_motori"
-				(path "/1d8b6cbe-395c-4735-9191-262d66b68dd6"
-					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 203.2 148.59 90)
 		(unit 1)
@@ -9127,7 +10134,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c82ebf8e-799d-4262-9789-c5a13748ce17")
-		(property "Reference" "R5"
+		(property "Reference" "R7"
 			(at 203.2 144.272 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9147,7 +10154,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 203.2 150.368 90)
 			(hide yes)
 			(show_name no)
@@ -9189,7 +10196,7 @@
 		(instances
 			(project "DORIDE_motori"
 				(path "/1d8b6cbe-395c-4735-9191-262d66b68dd6"
-					(reference "R5")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -9307,7 +10314,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.4"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
 			(at 274.0152 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -9445,7 +10452,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8281acd-1b20-4497-b8c5-10d3991940ea")
-		(property "Reference" "U6"
+		(property "Reference" "U5"
 			(at 214.63 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9522,7 +10529,7 @@
 		(instances
 			(project "DORIDE_motori"
 				(path "/1d8b6cbe-395c-4735-9191-262d66b68dd6"
-					(reference "U6")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -9539,7 +10546,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "db5e5ec0-7e98-44a7-b37c-bcd4329fc2d7")
-		(property "Reference" "J4"
+		(property "Reference" "J3"
 			(at 37.084 107.188 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9559,7 +10566,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PoliTOcean_SHDR4W64P0X250_1X4_1240X575X70"
+		(property "Footprint" "PoliTOcean:SHDR4W64P0X250_1X4_1240X575X70"
 			(at 61.468 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -9606,7 +10613,85 @@
 		(instances
 			(project "DORIDE_motori"
 				(path "/1d8b6cbe-395c-4735-9191-262d66b68dd6"
-					(reference "J4")
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 63.5 185.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dedbb5f3-38ca-44b7-bc20-fbc836a4d0c6")
+		(property "Reference" "#PWR029"
+			(at 63.5 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 63.5 190.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 63.5 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4fe9f94b-1123-45be-9301-0990a6d787e8")
+		)
+		(instances
+			(project "DORIDE_motori"
+				(path "/1d8b6cbe-395c-4735-9191-262d66b68dd6"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -9623,7 +10708,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e0cf4df2-6c65-4919-b434-547d6a92c36f")
-		(property "Reference" "R8"
+		(property "Reference" "R2"
 			(at 118.11 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9645,7 +10730,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PoliTOcean:SHDR3W64P0X250_1X3_990X575X700"
 			(at 115.062 39.37 90)
 			(hide yes)
 			(show_name no)
@@ -9687,7 +10772,7 @@
 		(instances
 			(project "DORIDE_motori"
 				(path "/1d8b6cbe-395c-4735-9191-262d66b68dd6"
-					(reference "R8")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -9705,7 +10790,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3f78c83-4441-4cae-9595-ee2224248bf2")
-		(property "Reference" "U5"
+		(property "Reference" "U4"
 			(at 214.63 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9782,7 +10867,7 @@
 		(instances
 			(project "DORIDE_motori"
 				(path "/1d8b6cbe-395c-4735-9191-262d66b68dd6"
-					(reference "U5")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -9877,7 +10962,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "edc5ce2a-f736-4adf-9940-9de3329965bb")
-		(property "Reference" "J13"
+		(property "Reference" "J8"
 			(at 257.81 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9899,7 +10984,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PoliTOcean_SHDR2W64P0X250_1X2_740X575X700"
+		(property "Footprint" "PoliTOcean:SHDR2W64P0X250_1X2_740X575X700"
 			(at 242.062 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -9940,7 +11025,7 @@
 		(instances
 			(project "DORIDE_motori"
 				(path "/1d8b6cbe-395c-4735-9191-262d66b68dd6"
-					(reference "J13")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -10252,6 +11337,160 @@
 			(project "DORIDE_motori"
 				(path "/1d8b6cbe-395c-4735-9191-262d66b68dd6"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "doride_lib:B6B-XH-A_LF__SN_")
+		(at 50.8 48.26 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fdc85acc-adff-4280-944f-c6c1c82609e3")
+		(property "Reference" "J1"
+			(at 40.64 27.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "B6B-XH-A_LF__SN_"
+			(at 40.64 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "doride_connettori:SHDR6W64P0X250_1X6_1740X575X700P"
+			(at 34.29 -46.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/JST-Sales-America-B6B-XH-A-LF-SN_C144397.pdf"
+			(at 34.29 -146.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "CONN HEADER VERT 6POS 2.5MM"
+			(at 50.8 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "7"
+			(at 34.29 -346.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "306-B6BXHALFSN"
+			(at 34.29 -446.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/JST-Commercial/B6B-XH-ALFSN?qs=cdbOS8ANM9AKmMmofXbwlw%3D%3D"
+			(at 34.29 -546.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
+			(at 34.29 -646.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "B6B-XH-A(LF)(SN)"
+			(at 34.29 -746.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "2"
+			(uuid "c08e62d6-d4a6-437e-b300-c56f625c8d2e")
+		)
+		(pin "3"
+			(uuid "da4d923e-2947-4d86-a89c-2e59280fdc29")
+		)
+		(pin "4"
+			(uuid "bc84f2c3-33b2-40f2-9672-8c0beca1dae3")
+		)
+		(pin "6"
+			(uuid "9ea3b642-28df-496f-8461-1e0e3090720e")
+		)
+		(pin "1"
+			(uuid "9c313988-0ba1-4687-8d27-f3aeb7f31196")
+		)
+		(pin "5"
+			(uuid "f15de01f-e349-4702-bafc-7069965c2126")
+		)
+		(instances
+			(project "DORIDE_motori"
+				(path "/1d8b6cbe-395c-4735-9191-262d66b68dd6"
+					(reference "J1")
 					(unit 1)
 				)
 			)
