@@ -10730,7 +10730,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PoliTOcean:SHDR3W64P0X250_1X3_990X575X700"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 115.062 39.37 90)
 			(hide yes)
 			(show_name no)
